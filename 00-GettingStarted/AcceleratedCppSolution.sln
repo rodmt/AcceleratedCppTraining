@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00-GettingStarted", "00-GettingStarted\00-GettingStarted.vcxproj", "{E2B9F64B-FE53-4BEF-AB1C-4449A16E72BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter0", "Chapter0", "{41ACE3CD-22C7-4DF9-89A9-8C961F3FC982}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2B9F64B-FE53-4BEF-AB1C-4449A16E72BF} = {41ACE3CD-22C7-4DF9-89A9-8C961F3FC982}
 	EndGlobalSection
 EndGlobal
